@@ -12,7 +12,7 @@ const requestCreator = async (endpoint, apiKey, method, data = null) => {
         }).then(res => res.json());
     }
     catch (error) {
-        throw new Error(`API Error ${response.status}: ${response.statusText}`);
+        return {success: false, message: error, status: 500, data: null};
     }
 }
 
