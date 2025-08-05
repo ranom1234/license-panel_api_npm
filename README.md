@@ -30,7 +30,7 @@ Install LPAPI SDK with npm
 ```
 
 ## Authentication
-You can initialize the SDK by requiring the licsen-panel-api module in your Node.js index file. The SDK is organized around your first initialized function cohering to the names and paths found in our API docs as well. All functions are asynchronous and have thus to be executed within another asynchronous function awaiting a response.
+You can initialize the SDK by requiring the license-panel-api module in your Node.js index file. The SDK is organized around your first initialized function cohering to the names and paths found in our API docs as well. All functions are asynchronous and have thus to be executed within another asynchronous function awaiting a response.
 
 ```javascript
 const LPAPI = require('license-panel-api');
