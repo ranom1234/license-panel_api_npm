@@ -164,7 +164,7 @@ const request = async () => {
 **Update a license by providing a name**
 ```javascript
 const request = async () => {
-    await lpapi.update.id(name, data);
+    await lpapi.update.name(name, data);
 };
 ```
 ## Support
