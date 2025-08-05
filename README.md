@@ -10,7 +10,7 @@ This is the License-Panel API (short LPAPI) npm SDK documentation. The License-P
 
 ## Tech Stack
 
-**Server:** Node, Express
+**Server:** Node.js
 
 **Subscription:** In order to gain access to the License-Panel API you need a valid subscription at License-Panel.com
 
