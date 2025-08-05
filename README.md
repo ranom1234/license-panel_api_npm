@@ -71,7 +71,7 @@ const request = async () => {
 **Show licenses with a given validity**
 ```javascript
 const request = async () => {
-    await lpapi.filter.byValidity(active/inactive);
+    await lpapi.filter.byValidity(valid/invalid);
 };
 ```
 
