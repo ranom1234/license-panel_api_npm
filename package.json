@@ -1,0 +1,29 @@
+{
+  "name": "license-panel-api",
+  "version": "1.0.0",
+  "description": "License-Panel API npm package",
+  "keywords": [
+    "API",
+    "Licenses",
+    "License-Panel",
+    "Panel"
+  ],
+  "homepage": "https://license-panel.com",
+  "bugs": {
+    "url": "https://github.com/ranom1234/license-panel_api_npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranom1234/license-panel_api_npm.git"
+  },
+  "license": "MIT",
+  "author": "License-Panel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
