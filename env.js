@@ -1,5 +1,5 @@
 const env = {
-    API_POINT: "http://localhost:3000",
+    API_POINT: "https://api.license-panel.com",
 }
 
 module.exports = env;
