@@ -96,18 +96,18 @@ module.exports = (apiKey) => {
 
       update: {
           //BY ID
-          id: (id, data) => {
-              return update.updateID(apiKey, id, data);
+          id: (id, data, method = 'PUT') => {
+              return update.updateID(apiKey, id, data, method);
           },
 
           //BY KEY
-          key: (key, data) => {
-              return update.updateID(apiKey, key, data);
+          key: (key, data, method = 'PUT') => {
+              return update.updateID(apiKey, key, data, method);
           },
 
           //BY NAME
-          name: (name, data) => {
-              return update.updateID(apiKey, name, data);
+          name: (name, data, method = 'PUT') => {
+              return update.updateID(apiKey, name, data, method);
           }
       }
     };
