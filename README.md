@@ -145,26 +145,28 @@ const request = async () => {
 };
 ```
 ## Update licenses
-For details on how to structure the PUT body, please refer to the API docs at api.license-panel.com
+For details on how to structure the PUT body, please refer to the API docs at api.license-panel.com.
+For updating Licenses you can either use the PUT or PATCH method. You can define your favored method within the function.
+If no value is provided, PUT will be used to update your license.
 
 **Update a license by providing an ID**
 ```javascript
 const request = async () => {
-    await lpapi.update.id(id, data);
+    await lpapi.update.id(id, data, method);
 };
 ```
 
 **Update a license by providing a key**
 ```javascript
 const request = async () => {
-    await lpapi.update.key(key, data);
+    await lpapi.update.key(key, data, method);
 };
 ```
 
 **Update a license by providing a name**
 ```javascript
 const request = async () => {
-    await lpapi.update.name(name, data);
+    await lpapi.update.name(name, data, method);
 };
 ```
 ## Support
